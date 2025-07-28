@@ -1,6 +1,6 @@
 public class TestaContas {
     public static void main(String[] args) {
-        ContaCorrente cc == new ContaCorrente();
+        ContaCorrente cc = new ContaCorrente();
         cc.depositar(1200.20);
         cc.sacar(300);
 
