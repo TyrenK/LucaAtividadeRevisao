@@ -1,14 +1,14 @@
-public class ContaPoupanca implentes Conta {
+public class ContaPoupanca implements Conta {
     private double saldo;
 
     @Override
     public void depositar(double valor) {
-        this.saldo += valor - taxaOp;
+        this.saldo += valor;
     }
 
     @Override 
     public void sacar(double valor) {
-        this.saldo -= valor + taxaOp;
+        this.saldo -= valor;
     }
 
     @Override
